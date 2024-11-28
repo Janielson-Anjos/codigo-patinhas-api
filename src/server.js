@@ -8,6 +8,10 @@ app.use(express.json());
 dotenv.config();
 app.use(cors());
 
+app.use(cors({
+  origin: 'http://localhost:5173',
+}));
+
 const PORT = process.env.PORT;
 
 app.use("/api", indexRouter);
