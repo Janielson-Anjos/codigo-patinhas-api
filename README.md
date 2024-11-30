@@ -4,6 +4,16 @@
 
 Repositório destinado a armazenar e documentar o Back-end da solução desenvolvida para a Problemática apresentada no BootCamp da Atlântico 2024.3
 
+## Tecnologias Utilizadas
+
+- Node
+- Prisma
+- Express
+- Cors
+- Jsonwebtoken
+- Bcryptjs
+- dotenv
+
 ## Execução 
 
 ### Pré-requisitos
@@ -92,4 +102,5 @@ controllers/: Contém a lógica de negócio para cada entidade.
 
 |  Versão  | Data da alteração | Alteração | Responsável | Revisor | Data de revisão |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| `1.0` | 10/11/24 | Criação do Backend | Toda a equipe | Rafael Bosi | 10/11/24 | 
+| `1.0` | 10/11/24 | Criação do Backend | Toda a equipe | Rafael Bosi | 10/11/24 |
+| `2.0` | 29/11/24 | Atualização de Segurança | Janielson Anjos | Janielson Anjos | 29/11/24 |
